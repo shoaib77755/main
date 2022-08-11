@@ -8,4 +8,4 @@ From tomcat:8-jre8
 MAINTAINER "buck"
 
 # copy war file on to container 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY /target/hello-world-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps
